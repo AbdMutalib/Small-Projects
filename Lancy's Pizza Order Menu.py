@@ -122,6 +122,7 @@ elif size == "3":
                 print("Topping    : Suya")
                 print("Price      : $" + str(final))
                 print("THANK YOU FOR CHOOSING LANCY'S PIZZA HAHA")
+                receipt = input("Would you like to print receipt: ")
             else:
                 print("That option is not available.....Order Cancelled")
 else:
